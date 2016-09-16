@@ -1,0 +1,1499 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //membership.biddytarot.com/
+Description: This is a custom child theme for Salient
+Author: GiF Design Studios
+Author URI: http: //www.gifdesignstudios.com/
+Template: salient
+Version: 0.1
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300+400+700+100);
+
+.biddy-user-level {min-height: 50px;}
+
+.biddy-hide-account {display:none !important;}
+
+/*------- RECURRING ELEMENTS---------*/
+
+p, a{font-family:montserratlight;}
+p b { font-family: montserrat; font-weight: 700;}
+.container-wrap {background:#fff !important;}
+h1, h2 {color:#862783 ;}
+.white {color:#fff !important;}
+.purple {color:#862783  !important;}
+.dark-purple {color:#582564  !important; ;}
+.green {color:#66c9c3 !important;}
+.dark-green {color:#287c7e  !important;}
+
+
+.strikethrough {text-decoration: line-through;}
+.banner-header-span {font-family:'Roboto Slab';font-size:28px;color:#66c9c3;vertical-align: bottom; margin-right: 20px;}
+
+.montserrat {font-family: Montserrat;}
+.roboto {font-family: Roboto Slab;}
+
+.fade-bottom-desktop {position:absolute !important;bottom:-2px;width:100% !important;}
+
+.button-center  {
+    margin: 20px auto !important;
+}
+a.green-button {
+    background: #66c3c9;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #66c3c9;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 25px;
+    display: block;
+    width: 155px;
+}
+a.green-button.button-long {width:200px;}
+
+
+.first-section .row-bg.using-image { background-position: left center !important;}
+.page-id-216 .first-section .row-bg.using-image { background-position: center !important;}
+.page-intro-title h1, .page-intro-title h2, .page-intro-title h3, .page-intro-title h4, .page-intro-title h5 {color:#862783 !important; font-weight: 700; font-family: Montserratlight; padding-bottom: 5px; text-transform: uppercase;}
+
+
+.logo-top-image {max-width:400px !important;    width: 90% !important;}
+input#query, #bbp_search {
+    padding: 0 10px;
+    height: 34px;
+}
+/*------VIDEO IFRAME------*/
+
+div#mep_0 {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0 !important;
+	width: auto !important;
+}
+div#mep_0 .mejs-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+body .mejs-container:not(.mejs-audio) .mejs-controls:before {
+    background: -webkit-linear-gradient(top , rgba(255, 255, 255, 0) -2%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.04) 44%, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.6) 100%);
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 31%, rgba(0, 0, 0, 0.04) 44%, rgba(89, 0, 144, 0.8) 100%, rgba(70, 3, 202, 0.6) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    z-index: 11;
+    border-radius: 4px;
+    content: ' ';
+}
+
+/*------------FORUM ACTIVITY BOXES--------------*/
+#bbp_topics_widget-2, #bbp_replies_widget-2 {
+    
+}
+
+#bbp_topics_widget-2 h2, #bbp_replies_widget-2 h2 {
+    color: #582564;
+    font-family: Montserrat;
+    font-size: 22px;
+    margin-bottom: 25px !important;
+}
+
+#bbp_topics_widget-2 h2:after, #bbp_replies_widget-2 h2:after {content: '';border-bottom: 2px solid #582564;display: block;width: 66%;padding: 5px 0;}
+
+#bbp_topics_widget-2 ul li a, #bbp_replies_widget-2 ul li a  {
+    font-family: montserrat !important;
+}
+
+#bbp_topics_widget-2 li a:before, #bbp_replies_widget-2 li a:before {display: block;position: absolute;top: 13%;left: 0;font-size: 22px;}
+
+#bbp_topics_widget-2 li, #bbp_replies_widget-2 li {
+    position: relative;
+    padding: 5px !important;
+    padding-left: 10px !important;
+}
+
+#bbp_topics_widget-2 li a, #bbp_replies_widget-2 li a {
+    vertical-align: middle;
+    height: 32px !important;
+}
+/*------NAVIGATION--------*/
+#top nav li.top-nav-myaccount, #top nav li.top-nav-login {  float: right !important;}
+#top nav .sf-menu li.current-menu-item > a  {color: #66c9c3 !important;}
+#top nav li.top-nav-login{margin-top:10px;}
+
+#top nav li.top-nav-login a {color:#66c9c3 !important;border:1px #66c9c3 solid !important;padding: 10px !important;}
+#top nav li.top-nav-login a:before{border-color:#66c3c9 !important;}
+#top nav li.top-nav-login a:after{border: none !important;}
+#top nav li.top-nav-login a:hover {color:#582564!important; border:1px #582564 solid !important;}
+#top nav li.top-nav-login a:hover:before {border-color:#582564!important;}
+
+#menu-learn-with-us li.top-nav-login, #menu-learn-with-us li.top-nav-myaccount, #menu-get-started li.top-nav-login, #menu-get-started li.top-nav-myaccount, #menu-get-in-touch li.top-nav-login, #menu-get-in-touch li.top-nav-myaccount {display:none;}
+/*----SIDE NAV-----*/
+
+#slide-out-widget-area {background-color:#582564 !important;}
+
+#slide-out-widget-area .menuwrapper li {
+    padding-bottom: 20px;
+}
+#slide-out-widget-area.fullscreen .inner li a, #slide-out-widget-area .off-canvas-social-links li a, #slide-out-widget-area.slide-out-from-right .inner .off-canvas-menu-container li a, #slide-out-widget-area .menuwrapper li small {
+    font-size: 28px;
+    font-weight: 400;
+    opacity: 1;
+    text-transform: uppercase;
+    font-family: montserrat;
+}
+/*-------HOME STYLING----------*/
+
+#home-icons-wrap a:hover img { width: 80px;}
+
+.home-icon-links {float:none;display:inline-block;}
+
+#home-user-info h2 {
+    text-transform: uppercase;
+}
+
+#home-user-info h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#home-user-info #bbpm_widget p a {
+    color: #444 !important;
+    font-size: 14px !important;
+}
+
+#home-icons-wrap .vc_col-sm-1.wpb_column.column_container.col.centered-text.no-extra-padding {
+        width: 47% !important;
+    min-width: 120px;
+}
+#home-user-info form p, #home-user-info form input {
+    display: none;
+}
+#home-user-info form img {border-radius:50%;width: 140px;}
+
+.home-latest-col h5 a {
+    color: #fff;
+}
+@media all and (max-width:1000px){
+    .page-template-default .first-section {padding-top: 230px !important;  padding-bottom: 120px !important;}
+    .page-template-default .first-section  > row-bg-wrap > .row-bg {    
+        background-image: url(/wp-content/uploads/2016/04/image_001.jpg);
+        background-position: left center !important;
+        background-repeat: no-repeat;
+        
+    }
+    #home-user-info , #page-intro-row { padding-top: 20px !important;}
+	#home-user-info h2, #home-user-info h4, #home-user-info p {
+    text-align: center;}
+}
+
+/*updates columns*/
+
+.home-latest-col .row.blog-recent.columns-1 {background: #eee;}
+.home-latest-col h5 {color:#fff;}
+.home-latest-col > div > div.row.blog-recent.columns-1 > div > p {display:none !important;}
+.home-latest-col > div > div.row.blog-recent.columns-1 > div > span {display:none !important;}
+
+.home-latest-resources-col .blog-recent .col.span_12 { padding: 25px !important;    z-index: 0;}
+
+
+.home-latest-resources-col .blog-recent .col.span_12 .post-header h2.title {font-size:16px; font-family:Montserratlight;}
+
+/*Latest Resources Column*/
+
+.home-latest-resources-col #monitor-button > a {
+    margin-top: 6px;
+    border-bottom: 1px #582564 solid;
+    padding-bottom: 20px;
+    min-height: 72px;
+}
+.home-latest-resources-col #monitor-button > a:hover {color:#66c3c9;}
+
+.home-latest-resources-col #monitor-button > a:before {
+          content: '';
+    background-image: url(/wp-content/uploads/resources-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    top:auto;
+}
+
+
+/*Latest webinars column*/
+
+.blog-recent[data-style="minimal"] .col > a, .blog-recent[data-style="title_only"] .col > a {z-index:0}
+
+#updates-columns .home-latest-webinars-col .column-link {
+    z-index: 200;
+}
+
+#updates-columns .home-latest-webinars-col .category-live-webinars .content-inner .link-inner {
+    background-color: transparent !important;
+    border-bottom: 1px #5B3C61 solid !important;
+    padding-bottom: 21px;
+    z-index:0;
+}
+#updates-columns .home-latest-webinars-col .category-live-webinars .content-inner .link-inner:last-child{border-bottom:none;}
+
+
+#updates-columns .home-latest-webinars-col .category-live-webinars .content-inner .link-inner h2 {
+    margin-right: 0;
+    text-align: center;
+    font-size: 18px !important;
+    margin-bottom: 0;
+    margin-right: 0px;
+    font-family: montserratlight;
+    color: #862783;
+}
+
+}
+#updates-columns .home-latest-webinars-col .category-live-webinars .post-content h2.title strong {
+    display: block !important;
+}
+#updates-columns .home-latest-webinars-col .category-live-webinars .post-content h2.title:after {
+    content: 'Subscribe Now';
+    color:#66c3c9;
+    font-size: 14px;
+    border: 2px #66c3c9 solid;
+    padding: 5px;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    float: none;
+    margin-top: 20px;
+    text-align: center;
+    font-family: montserrat;
+    display:none;
+}
+#updates-columns .home-latest-webinars-col .category-live-webinars .post-content h2.title:hover:after {
+    background:#66c3c9;
+    color:#fff;
+}
+#updates-columns .home-latest-webinars-col article.post .post-content, #past-webinars article.post .post-content {min-height:0px !important;}
+
+/*-----------Home Hot topics column---------*/
+
+#forum-hot-topics p.post a {
+    font-family: montserrat;
+    color: #862783;
+    text-transform: uppercase;
+}
+
+#forum-hot-topics p.post {
+    margin: 20px auto 5px 10px;
+    padding-bottom: 0;
+}
+
+#forum-hot-topics p.author {
+    float: left;
+    margin-left: 10px;
+}
+
+#forum-hot-topics p.replies {
+    float: right;
+}
+
+#forum-hot-topics {
+    padding-bottom: 40px;
+    border-bottom: 2px #eee solid;
+}
+
+/*---------------LOGIN PAGE----------------*/
+
+.page-template-Login-page-template > #header-space,.page-template-Login-page-template > #header-outer, .page-template-Login-page-template > div > #footer-outer {
+    display: none;
+}
+.op-login-form-1 #login_message_normal {
+    background: none;
+    border: none;
+    text-align: center;
+    font-family: Montserrat;
+    text-transform: Uppercase;
+}
+.op-login-form-1 .login_box {background:rgba(255,255,255,0.3);border-color:#fff;} 
+#login-container { 
+   min-height: 100vh;
+}
+.login-col-wrap h3 {
+    color: turquoise;
+    font-weight: 400;
+}
+.op-login-form-1 #login_message_normal {
+    background: none;
+    border: none;
+    text-align: center;
+    font-family: Montserrat;
+    text-transform: Uppercase;
+}
+
+.op-login-form-1 input[type=text],.op-login-form-1 input[type=password] {
+    background: none;
+    border: 1px #fff solid;
+    height: 52px !important;
+    font-size: 26px !important;
+    color: #fff;
+}
+.op-login-form-1 #wp-submit {
+    background: #66c3c9;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 22px !important;
+}
+.op-login-form-1 #wp-submit:hover {
+        background: #862783  !important; 
+}
+
+.login-col-wrap p {
+    color: #fff;
+    margin-top: 15px;
+}
+ 
+.login-col-wrap p a {
+    color: #fff;
+    background: #66c3c9;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px #66c3c9 solid;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.login-col-wrap p a:hover{ background:#862783;border-color:#862783 ;}
+.login-col-wrap .op-login-form-1 {
+    background: transparent;
+    box-shadow: none;
+    margin-top: 0px;
+    padding-top: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.login-col-wrap .op-login-form-1 label {
+    margin: 13px 0 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: MontserratLight;
+    font-size: 14px !important;
+}
+
+.login-col-wrap:first-child {
+    padding-right: 4.5%;
+    margin-right: 5.5%;
+    border-right: 1px #66c3c9 solid;
+} 
+
+@media only screen and (max-width: 1000px) and (min-width: 690px)
+.vc_row-fluid > .wpb_column.vc_col-sm-5.login-col-wrap:nth-child(2) {
+    margin-left: 9.5% !important;
+}
+@media only screen and (max-width: 1000px) and (min-width: 1px){
+.page-template-Login-page-template > #header-space[data-header-mobile-fixed="1"] {
+    display: none !important;
+}
+}
+@media all and (max-width:767px) {
+.login-col-wrap:first-child {
+    padding-right: 0;
+    margin-right: auto !important;
+    border-right: 0px #66c3c9 solid;
+    margin-bottom: 60px !important;
+}
+.login-col-wrap:first-child h3 {
+    text-align:center;
+}
+}
+
+/*--------------START HERE PAGE--------*/
+#video-button-nav {
+    font-size: 16px;
+    border: 2px #66c3c9 solid;
+    text-align: center;
+    padding: 8px 32px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: 140px;
+}
+#video-button-nav.video-nav-next {float:right;}
+#video-button-nav.video-nav-prev {float:left;}
+.transp-green-button {
+    float: right;
+    width: 124px;
+    font-size: 13px;
+    border: 2px #66c3c9 solid;
+    text-align: center;
+    padding: 5px;
+    margin-top: -8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+#video-button-nav:hover , .transp-green-button:hover {background:#66c3c9;color:#fff;}
+
+.start-toggle-interior li {
+    margin-bottom: 25px;
+    vertical-align: middle;
+    margin-left: 35px;
+    border-bottom: 1px rgba(134, 39, 131, 0.28)  solid;
+    padding-bottom: 23px;
+    color: #862783;
+    font-family: Montserratlight;
+}
+
+#start-toggle .start-toggle-interior li:last-child {border-bottom:none;margin-bottom:20px}
+
+#start-toggle h5{color:#fff; font-family: montserratlight;letter-spacing:0.2em;}
+#start-toggle .toggle h3 a {
+    background: #582564;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px !important;
+    margin: 40px auto 0;
+    text-transform: Uppercase;
+    font-weight: 400;
+    border-bottom: 2px solid #EFEFEF;
+}
+#start-toggle .toggle.open h3 a {
+    background-color: #582564 !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    margin: 40px auto 0px;
+    font-weight: 400;
+    border-bottom: 0px solid #EFEFEF;
+}
+
+#start-toggle .toggle h3 a i { left: auto; right: 18px; color: #66c3c9; top:12px;}
+#start-toggle  .icon-plus-sign:before {
+    content: "";
+    border-radius: 50%;
+    padding: 5px 5px;
+    background: url(/wp-content/uploads/2016/04/expand.png) no-repeat;
+    height: 16px;
+    width: 16px;
+    background-size: 17px;
+    background-position: center;
+}
+#start-toggle .icon-minus-sign:before {
+    content: "";
+    border-radius: 50%;
+    padding: 5px 5px;
+    background: url(/wp-content/uploads/2016/04/collapse.png) no-repeat;
+    height: 16px;
+    width: 16px;
+    background-size: 17px;
+    background-position: center;
+}
+#start-toggle .toggle.open > div, #support-toggle .toggle > div {
+    background-color: #f3f3f3 !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+}
+#start-toggle .toggle.open ol {margin-top:40px;}
+
+/*-----RESOURCES POST----*/
+
+#resources-download {}
+
+
+.resources-download-item {
+    background: #f7f7f7;
+    padding: 20px 0px;
+}
+#resources-download .resources-download-item a.download-link {
+        border: none;
+    text-align: left;
+    border-radius: 0;
+    padding: 0 15px 15px;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #862783;
+    margin-left: 65px;
+    line-height: 130%;
+    font-family: Montserrat;
+    letter-spacing: 0.7px;
+}
+#resources-download #resources-download-button a.download-link:before {
+     content: '';
+    background-image: url(/wp-content/uploads/resources-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 32px;
+}
+#resources-download #resources-download-button:hover { background:#f9f9f9;}
+#resources-download #resources-download-button:hover p { color:#66c3c9;}
+
+/*--Resources POST links on Resources Page---*/
+#resources-post-links .col.span_6 {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+}
+
+#resources-post-links .col.span_6 .meta {
+    display: none;
+}
+
+#resources-post-links .col.span_6 .title {
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+#resources-post-links .col.span_6:before {
+      content: '';
+    background-image: url(/wp-content/uploads/resources-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+}
+#resources-post-links .col.span_6 h2 {color:#862783;}
+#resources-post-links .col.span_6:hover h2 {
+    transform: none !important;
+    -webkit-transform-origin-y: 0px !important;
+    color: #66c3c9;
+}
+/*--Resources download button--*/
+
+#monitor-button {
+    padding: 10px 0;
+}
+#monitor-button > a:before {
+          content: '';
+    background-image: url(/wp-content/uploads/resources-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    top: 18px
+}
+#monitor-button a {
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #582564;
+    margin: 0 5px 0 auto;
+    width: calc(100% - 70px);
+}
+
+#monitor-button a:hover {
+    color: #66c3c9;
+}
+
+#monitor-button a span, #monitor-button a small {
+    display: none;
+}
+
+
+/*-----WEBINARS-------*/
+
+#live-webinars {}
+#live-webinars > div.col.span_12, #past-webinars > div.col.span_12 , .green-border-box > div.col.span_12 { margin-left: auto !important; max-width: 890px; margin-right: auto !important;}
+#live-webinars > div.col.span_12:before, .green-border-box > div.col.span_12:before { content: ''; position: absolute; top: -40px; margin-left: -40px;  height: 80px;  width: 80px; background: transparent url('/wp-content/uploads/2016/04/webinar_icon_purple.png') no-repeat;  background-size: contain;  left: 50%;  z-index: 23;}
+
+.live-webinars-wrap, .green-border-box-wrap {border: 2px #66c9c3 solid; padding: 40px !important;}
+.live-webinar-row,.past-webinar-row, .green-border-box-row  {border-bottom: 1px #9a9a9a solid;padding:0px 0px 24px !important;}
+.live-webinar-row:last-child,.past-webinar-row:last-child, .green-border-box-row:last-child {border:none;} 
+.live-webinar-date, .past-webinar-date, .green-border-box-date {vertical-align: middle;padding-top: 5px !important;}
+.live-webinar-title, .past-webinar-title, .green-border-box-title {vertical-align: middle;text-align:left;padding-top: 5px !important;}
+.live-webinar-button, .past-webinar-button, .green-border-box-button {vertical-align: middle;}
+.live-webinar-button p , .green-border-box-button p{color: #66c9c3;  border: 2px #66c9c3 solid;  padding: 5px !important;  width: 150px; margin: 0 auto; vertical-align: middle;transition: 0.6s linear ;cursor:pointer;}
+.live-webinar-heading h4, .green-border-box-heading h4 {margin-top: 10px;margin-bottom:10px !important;}
+.live-webinar-button p:hover, .green-border-box-button p:hover {background:#fff;color:#582564;}
+.live-webinar-date > div > div > div::after {  content: '-';  right: 0px;  position: absolute;  font-size: 24px;  top: 2.5px;}
+
+#live-webinars h6 {font-size:14px; font-weight:400; font-family:Montserratlight; text-align:center;}
+
+@media all and (max-width:1000px){
+    #webinars-intro{padding-bottom:0px !important; padding-top:0 !important;}
+    #webinars-intro .row-bg.using-image {background:none !important;}
+    #webinars-intro .page-intro-wrap {margin-bottom:20px !important;}
+}
+
+/*-----Live Webinars items via Posts----*/
+
+#live-webinars .category-live-webinars .content-inner .link-inner {
+    background-color: transparent !important;
+    border-bottom: 1px #5B3C61 solid !important;
+    padding-bottom: 21px;
+}
+#live-webinars .category-live-webinars:last-child .content-inner .link-inner{border-bottom:none !important;}
+
+
+#live-webinars .category-live-webinars .content-inner .link-inner h2 {
+    text-align: left;
+    font-size: 18px !important;
+    margin-bottom: 0;
+  margin-right: 175px;
+    font-family: montserrathairline;
+}
+
+#live-webinars .category-live-webinars .post-content h2.title:after {
+    content: 'REGISTER';
+    color:#66c3c9;
+    font-size: 14px;
+    border: 2px #66c3c9 solid;
+    border-radius:4px;
+    padding: 5px;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    float: right;
+    margin-top: -6px;
+    text-align: center;
+    margin-right: -185px;
+    font-family: montserrat;
+}
+#live-webinars .category-live-webinars .post-content h2.title:hover:after {
+    background:#66c3c9;
+    color:#fff;
+}
+#live-webinars article.post .post-content, #past-webinars article.post .post-content {min-height:0px !important;}
+
+
+/*-----Past Webinars via Posts----*/
+
+#past-webinars .category-past-webinars .content-inner .link-inner {
+    background-color: transparent !important;
+    border-bottom: 1px #5B3C61 solid !important;
+    padding-bottom: 21px;
+}
+#past-webinars .category-past-webinars:last-child .content-inner .link-inner{border-bottom:none;}
+
+#past-webinars .category-past-webinars .content-inner .link-inner h2 {
+    text-align: left;
+    font-size: 18px !important;
+    margin-bottom: 0;
+    color:#582564;
+    margin-right: 185px;
+    font-family: montserrathairline;
+}
+
+#past-webinars .category-past-webinars .post-content h2.title:after {
+    content: 'Watch Now';
+    color:#582564;
+    font-size: 14px;
+    border: 2px #582564 solid;
+    padding: 5px;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    float: right;
+    margin-top: -6px;
+    text-align: center;
+    margin-right: -185px;
+    font-family: montserrat;
+    border-radius:4px;
+}
+#past-webinars .category-past-webinars .post-content h2.title:hover:after {
+    background:#582564;
+    color:#fff;
+    border: 2px #582564 solid;
+}
+
+
+#past-webinars {}
+.past-webinars-wrap {padding: 40px !important;}
+.past-webinar-button p {color: #66c9c3;  border: 2px #66c9c3 solid;  padding: 5px !important;  width: 150px; margin: 0 auto; vertical-align: middle;transition: 0.6s linear ;cursor:pointer;}
+.past-webinar-heading h4 { border-bottom: #66c3c9 3px solid;  max-width: 290px ;margin-bottom:20px;}
+.past-webinar-button p:hover {background:#582564;border-color:#582564; color:#fff; }
+.past-webinar-date > div > div > div::after {  content: '-';  right: 0;  position: absolute;  font-size: 24px;  top: 2.5px;}
+
+@media all and (max-width:720px){
+#live-webinars .category-live-webinars .content-inner .link-inner h2, #past-webinars .category-past-webinars .content-inner .link-inner h2 {
+    margin-right: 0;
+    text-align:center;
+}
+
+#live-webinars .category-live-webinars .post-content h2.title:after , #past-webinars .category-past-webinars .post-content h2.title:after {
+    float: none;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#live-webinars .category-live-webinars .content-inner .link-inner h2 > strong, #past-webinars .category-live-webinars .content-inner .link-inner h2 > strong  {
+    display: block !important;
+}
+}
+
+
+/*Webinar Category posts page*/
+
+.category-live-webinars .post-content span[title="Link"], .category-past-webinars .post-content span[title="Link"]{
+    display: none !important;
+}
+
+.category-live-webinars .post-meta, .category-past-webinars .post-meta {
+    display: none !important;
+}
+
+/*Webinar Category main page*/
+
+body.category-live-webinars .post-content, body.category-past-webinars .post-content {
+    padding-right: 60px;
+    text-align: center;
+}
+.category-live-webinars .post-content,.category-past-webinars .post-content {
+    padding-left: 0;
+}
+
+
+.category-live-webinars .post-content h2.title, .category-past-webinars .post-content h2.title  {
+    font-size: 24px !important;
+    text-align: center;
+    font-weight: 400 !important;
+}
+
+.category-live-webinars .post-content h2.title:after, 
+.category-past-webinars .post-content h2.title:after {content: 'Subscribe Now';font-size: 14px;border: 2px #fff solid;padding: 5px;display: block;width: 150px;margin: 10px auto;}
+
+.category-live-webinars .post-content span.destination , .category-past-webinars .post-content span.destination {
+    display: none !important;
+}
+
+.category-live-webinars .post-content .content-inner, .category-past-webinars .post-content .content-inner {
+    padding-bottom: 0px !important;
+    margin-bottom: 10px;
+}
+
+/*------------GREEN BORDER BOX-------*/
+
+.green-border-box-button p {margin: 0 20px 0 auto;}
+
+
+/*-----TAROT101-------*/
+.green-border-box.tarot-box-icon > div.col.span_12:before { background: transparent url('/wp-content/uploads/2016/04/card_icon_purple.png') no-repeat; }
+
+/*-------MEMBERS PERKS------------------*/
+
+.perks-button {
+   padding: 10px 20px;
+   color:#fff;
+   text-transform: uppercase;
+   font-family: Montserrat;
+   text-align: center;
+   margin: 10px 0;
+   background: #862783;
+   border-radius:4px;    
+   display: inline-block;
+}
+.perks-button:hover {
+  background:#fff;
+  color:#862783;
+}
+
+/*-------RESOURCES PAGE-----------*/
+
+.resources-downloads-wrap .iwithtext .iwt-text , .resources-downloads-wrap .iwithtext .iwt-text a{
+    color: #862783  ;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    vertical-align: text-top;
+}
+.resources-downloads-wrap .iwithtext {  margin-bottom: 65px !important;}
+.resources-downloads-wrap .iwithtext .iwt-text { padding-left: 70px;  padding-top: 1px;}
+.resources-downloads-wrap .iwithtext a:hover {color:#66c9c3;}
+
+
+
+
+/*--------------SUPPORT PAGE----------*/
+
+
+#support-toggle h5{color:#fff; font-family: montserratlight;letter-spacing:0.2em;}
+#support-toggle .toggle h3 a {background: #fff;
+    color: #862783;
+    padding-left: 20px;
+    font-size: 18px !important;
+    margin: 40px auto 0;
+    text-transform: none;
+    font-weight: 400;
+    border-bottom: 2px solid #EFEFEF;
+    padding-bottom: 30px;
+}
+#support-toggle .toggle.open h3 a {
+    background-color: #f3f3f3 !important;
+    color: #66c9c3 !important;
+    padding-left: 20px;
+    font-size: 18px !important;
+    margin: 40px auto 0;
+    text-transform: none;
+    font-weight: 400;
+    border-bottom: 0px solid #EFEFEF;
+    padding-bottom: 30px;
+}
+#support-toggle .toggle h3 a i { left: auto; right: 18px; color: #66c3c9; top:8px;}
+#support-toggle  .icon-plus-sign:before {
+    content: "";
+    border: 1px #66c3c9 solid;
+    border-radius: 50%;
+    padding: 5px 5px;
+    background: url(/wp-content/uploads/2016/04/expand.png) no-repeat;
+    height: 16px;
+    width: 16px;
+    background-size: 17px;
+    background-position: center;
+}
+#support-toggle .icon-minus-sign:before {
+    content: "";
+    border: 1px #66c3c9 solid;
+    border-radius: 50%;
+    padding: 5px 5px;
+    background: url(/wp-content/uploads/2016/04/collapse.png) no-repeat;
+    height: 16px;
+    width: 16px;
+    background-size: 17px;
+    background-position: center;
+}
+#support-toggle .toggle.open > div, #support-toggle .toggle > div {
+    background-color: #f3f3f3 !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+}
+.toggle.open > div > div > div > p {padding: 0 12px;}
+#support-contact .wpcf7-form-control-wrap.your-name , #support-contact .wpcf7-form-control-wrap.your-email{
+    width: 30%;
+    padding: 7px 15px !important;
+    border: none !important;
+    background: #F3F3F3 !important;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: inline-block !important;
+    margin-right: 20px;
+}
+#support-contact .wpcf7-form-control-wrap.your-email{width:50%;}
+
+#support-contact input[type="text"], #support-contact input[type="email"]{
+border: none !important;
+    border-bottom: 1px #ccc solid !important;
+    padding: 0px !important;
+}
+span.wpcf7-form-control-wrap.your-subject {
+    width: 100%;
+    padding:  7px 15px !important;
+    border: none !important;
+    background: #F3F3F3!important;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    display: block;
+}
+#support-contact input[name="your-subject"] {
+    padding: 8px 0 0px !important;
+    border: none !important;
+    border-bottom: 1px #ccc solid !important;
+    background: #F3F3F3!important;
+    border-radius: 4px;
+}
+#support-contact input[type="submit"] {
+    float: right;
+    width: 150px;
+    color: #fff;
+    background: purple;
+    border-radius: 5px !important;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-family: montserrat;
+    padding: 10px 0px !important;
+    height: 40px;
+}
+#support-contact textarea {
+    height: 160px !important;
+    background: #F3F3F3 !important;
+	border-radius: 4px;
+}
+
+/*-------------FORUMS Styling-------------*/
+.bbp-search-form {margin-bottom:20px; color:#444;}
+
+#bbpress-forums li {
+    background: none;
+    margin: 0;
+    list-style: none;
+    font-size: 14px;
+}
+#bbpress-forums li p img.avatar {
+    width: 18px;
+}
+#bbpress-forums .bbp-breadcrumb {
+    font-size: 14px;
+    text-transform:uppercase;
+}
+#bbpress-forums #bbp-search-form #bbp_search { height: 35px; padding: 00px; vertical-align: middle;}
+
+#bbpress-forums li.bbp-header {
+    background-color: #582564 !important;
+    color: #fff;
+    font-weight:700;
+    font-family: Montserratlight;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#bbpress-forums .bbp-topic-title,#bbpress-forums .bbp-forum-info, #bbpress-forums .bbp-forum-title  {
+    width: 48% !important;
+}
+#bbpress-forums .forum-titles li.bbp-topic-subscribe, #bbpress-forums .forum-titles li.bbp-forum-subscribe {
+    width: 10%;
+    display: inline-block;
+}
+
+#bbpress-forums .bbp-body .topic li.bbp-topic-title a.bbp-topic-permalink {
+    font-size: 16px !important;
+    margin-top: 5px;
+    display: block;
+}
+
+#bbpress-forums .bbp-footer .bbp-reply-content, #bbpress-forums .bbp-footer .bbp-reply-author {
+    display: none;
+}
+
+#bbpress-forums .status-category > li.bbp-forum-info > a, #bbpress-forums .bbp-has-subforums > li.bbp-forum-info > a  {
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+    margin-left:0;	
+}
+
+#bbpress-forums .status-category > li.bbp-forum-info > a:hover, #bbpress-forums .bbp-has-subforums > li.bbp-forum-info > a:hover {color:#862783;}
+
+#bbpress-forums .bbp-has-subforums > li.bbp-forum-info > ul > li > a{font-size:14px; color:#862783}
+
+#bbpress-forums .bbp-forum-info .bbp-forum-content, #bbpress-forums p.bbp-topic-meta {
+    font-size: 13px;
+    margin: 10px 0 5px !important;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic {
+    overflow: hidden;
+    padding: 0px 10px 5px;
+    border: 0px solid transparent;
+}
+
+#bbpress-forums li.bbp-body ul.forum:hover , #bbpress-forums li.bbp-body ul.topic:hover  {
+   background: #E9D8E9;
+}
+#bbpress-forums div.even:hover a, #bbpress-forums ul.even:hover a, #bbpress-forums div.odd:hover a , #bbpress-forums ul.odd:hover a{
+   color:#;
+}
+
+#bbpress-forums li .status-category li.bbp-forum-freshness,  #bbpress-forums li .bbp-has-subforums li.bbp-forum-freshness {font-size:14px;}
+
+#bbpress-forums .bbp-forums-list {
+    margin: 0 0 0 20px;
+    padding-left: 16px;
+    border-left: 1px solid #ddd;
+} 
+#bbpress-forums .bbp-forums-list .bbp-forum {
+    display: block;
+}
+#bbpress-forums .bbp-has-subforums > li.bbp-forum-info > ul > li > a:hover {color:#66c3c9;}
+
+
+/*--Forum Topics Row---*/
+#bbpress-forums div.bbp-forum-content, #bbpress-forums div.bbp-topic-content, #bbpress-forums div.bbp-reply-content {
+    margin-left: 160px;
+    padding: 12px 12px 12px 0;
+    text-align: left;
+}
+#bbpress-forums div.bbp-reply-author {
+    float: left;
+    text-align: center;
+    width: 160px;
+}
+#bbpress-forums div.bbp-reply-author .bbp-author-role {
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 0;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+.bbp-reply-content p {
+    padding-bottom: 10px;
+}
+
+span.bbp-author-ip {
+    display: none;
+}
+
+#bbpress-forums div.bbp-forum-author img.avatar, #bbpress-forums div.bbp-topic-author img.avatar, #bbpress-forums div.bbp-reply-author img.avatar {
+    border: none;
+    max-width: 50px;
+    padding: 0;
+    margin: 12px auto 0 auto;
+    float: none;
+    border-radius: 50%;
+}
+.bbp-reply-author p {
+    border: 2px solid #66c3c9;
+    border-radius: 4px;
+    padding: 0px;
+    margin: 10px 5px;
+    font-size: 12px;
+    background: #66c3c9;
+    color: #fff;
+}
+.bbp-reply-author p:hover {
+    background:transparent;
+    color:#66c3c9;
+}
+.bbp-reply-author p:hover a {
+    color: #66c3c9;
+}
+.bbp-reply-author p a {
+    color: #fff;
+}
+
+#bbpress-forums li ul li.bbp-forum-subscribe, #bbpress-forums li ul li.bbp-topic-subscribe {
+    vertical-align: middle;
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+} 
+
+#bbpress-forums li.bbp-subs-button {
+    width: 10%;
+display: inline-block;
+padding: 20px 0;
+text-align: center;}
+
+#bbpress-forums .bbp-subs-button #subscription-toggle {
+    float: none;
+    padding: 20px 0px;
+    display: block;
+}
+@media all and (max-width:950px) {
+#bbpress-forums li.bbp-forum-subscribe , #bbpress-forums .bbp-subs-button, #bbpress-forums li.bbp-topic-subscribe {
+    display: none !important;
+    width: 0;
+}
+}
+@media all and (min-width:320px) and (max-width:850px) {
+#bbpress-forums li.bbp-forum-freshness {
+    display: none;
+    width: 0;
+}
+
+#bbpress-forums li ul li {
+    width: 22.5%;
+}
+   
+
+#bbpress-forums li ul li:first-child {
+    width: 60%;
+}
+#bbpress-forums li ul li ul li {
+    width: 100% !important;
+    margin-top: 20px;
+    line-height: 112%;
+    margin-bottom: 27px;
+}
+
+}
+
+
+/*Forum Archive Pages styling*/
+.forum-archive #biddy-page:before, .single-forum #biddy-page:before ,.single-topic #biddy-page:before {content:'';width:100%;width: 100%; height: 340px;  background: url(/wp-content/uploads/forum-header-logo.jpg) no-repeat; background-size:cover;background-position:center;position:relative;display:block; margin-bottom:40px;}
+.forum-archive #biddy-page, .single-forum #biddy-page, .single-topic #biddy-page {padding:0px !important;}
+
+#bbpress-forums #subscription-toggle {
+    float: right;
+    margin-bottom: 10px;
+}
+
+#bbpress-forums #subscription-toggle a {
+    background-color: #66c3c9;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 4px;
+font-family:Montserrat;
+}
+#bbpress-forums #subscription-toggle a:hover{background-color:#582564;}
+
+/*--- BBpress user profile view --*/
+
+#bbpress-forums #bbp-single-user-details #bbp-user-avatar img.avatar {border-radius:50%;
+    margin: 10px 0 16px 0;}
+
+#bbpress-forums #bbp-single-user-details {
+    background: #582564;
+    padding: 20px;
+    width: 190px;
+    border-radius: 4px;
+    margin-right: 50px;
+    text-align: center;
+}
+#bbpress-forums #bbp-single-user-details #bbp-user-navigation a {
+    color: #fff;
+    opacity: 1;
+font-family:Montserratlight;
+}
+#bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current a {
+    color: #66c3c9;
+    opacity: 1;
+    background:none;
+    font-weight:600;
+}
+#bbp-user-profile h4.entry-title {
+    width: calc(100% - 290px);
+    display: inline-block;
+    vertical-align: top;
+}
+#bbp-user-profile p.profile-top-meta {
+ width: 226px;
+    display: inline-block;
+    text-align: left;
+}
+#bbp-user-profile p.profile-top-meta span {
+    font-family: Montserrat;
+    font-size: 18px;
+    text-transform: uppercase;
+        display: block;
+    margin: 10px 0 ;
+    text-align: left ;
+    width: 100% ;
+    background: #582564;
+    padding: 5px;
+    color: #fff ;
+   
+}
+#bbp-user-profile .bbp-user-section > p {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #582564;
+    font-family: montserrat;
+    font-weight: 600;
+    line-height: 150%;
+    padding-bottom: 10px;
+}
+#bbp-user-profile .bbp-user-section > p > span.profile-answer {
+    display: block;
+    margin-left: 0px;
+    padding: 20px;
+    border: 1px transparent solid;
+    width: auto;
+    font-size: 16px !important;
+    text-transform: none;
+    font-weight: 400;
+    color: #666;
+    background: #f7f7f7;
+}
+
+
+#bbp-user-body > p:last-child a {
+    border: 2px solid #66c3c9;
+    background:#66c3c9;
+    color:#852756;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    max-width: 250px;
+    text-align: center;
+   margin:20px auto;
+}
+#bbp-user-body > p:last-child a:hover, #bbp-user-body > p:last-child a:hover span {    
+    background: #fff;
+    color: #582564 !important;
+}
+
+
+@media all and (max-width:690px){
+     h6.entry-title {width:100% !important; margin-top:50px;text-align:center;}
+
+    #bbpress-forums #bbp-user-body {
+       margin-left:0px;
+    width:100%;
+}
+#bbp-user-profile p.profile-top-meta {
+    width: 100%;
+    text-align: center;
+    margin-top:40px;
+}
+#bbp-user-profile p.profile-top-meta span {
+    text-align: center;
+    width:100%:
+}
+
+
+#bbpress-forums #bbp-single-user-details {
+    width: 80%;
+    margin: 10px 10%!important;
+    text-align: center;
+}
+#bbpress-forums #bbp-single-user-details #bbp-user-avatar {
+    width: 100%;
+    margin: 0 auto;
+}
+}
+/*------BBpress Profile edit page----*/
+
+.single.bbpress .form-table.umm-custom-fields th {
+    vertical-align:middle;
+    padding-left: 40px;
+    text-align:right;
+    font-family:Montserrat;
+    font-size:18px;
+    color:#777;
+    font-weight:400;
+    width: 30%
+}
+.single.bbpress .form-table.umm-custom-fields td {font-size:16px;font-family:Montserratlight;}
+
+@media all and (max-width:1000px){
+.bbp-user-edit #bbp-single-user-details {
+    float: none !important;
+    margin: 20px auto 60px !important;
+    max-width: 341px !important;
+    width: 80% !important;
+    text-align: center !important;
+}
+#bbpress-forums #bbp-single-user-details #bbp-user-avatar {margin:0 auto;}
+
+.bbp-user-edit #bbp-user-body {
+    width: 100%;
+    float:left;
+    margin-left:0 !important;
+    margin-top:40px;
+    text-align:center;
+}
+#bbp-your-profile > fieldset > div > label {
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+    text-align: left !important;
+}
+
+#bbp-your-profile > fieldset > div > input,#bbp-your-profile > fieldset > div > textarea {
+    width: 100% !important;
+}
+.single.bbpress .form-table.umm-custom-fields th {display:block;text-align:left;padding-left:5px;float:none;width:100%;}
+.single.bbpress .form-table.umm-custom-fields td {display:block}
+}
+.bbp-footer .bbp-reply-content, .bbp-header .bbp-reply-content {text-align:center !important;}
+
+/*---------BBpress Messages------*/
+
+.bbpm-archive , .bbpm {
+    width: calc(100% - 50px);
+    margin-left: 50px;
+}
+@media all and (max-width:690px) and (min-width:480px){
+.bbpm {
+float:left;
+margin-left:-30px;
+width:100%;
+margin-top:30px;
+}
+}
+@media all and (max-width:479px) {
+.bbpm {
+margin-left:-30px;
+width: 100%;
+}
+}
+
+/*---------------MEMBERS DIRECTORY-------------*/
+
+
+/*Directory Search bar*/
+
+#tern_members h2 {
+    font-size: 20px;
+}
+
+.tern_members_search #query {
+    width: 240px;
+    display: inline-block;
+    height: 36px;
+    padding: 0 5px !important;
+    color:#444 !important;
+    margin: 10px auto 10px;
+    vertical-align: text-bottom;
+}
+
+.tern_members_search select {
+    width: 120px;
+    display: inline-block;
+    height: 36px;
+    padding: 5px 10px !important;
+    vertical-align: text-bottom;
+    margin: 0 auto 10px;
+    background-color: #f7f7f7;
+}
+
+.ascend .container-wrap .tern_members_search input[type="submit"][value="Submit"] {
+    padding: 7px 10px !important;
+    height: auto !important;
+    text-align: center !important;
+    width: 125px;
+    border-radius: 4px !important;
+    background-color: #862783;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+span.ml-by-span {
+    vertical-align: text-bottom;
+    margin: 0px 10px 8px;
+    display: inline-block;
+    height: 32px;
+}
+/*Member Items styling*/
+
+.WP-ml-member {
+        display: inline-block;
+    width: 255px;
+    margin: 20px 0.5%;
+    text-align: center;
+    padding: 20px 5px;
+    min-width: 254px;
+    border: 2px #582564 solid;
+    background: #f7f7f7;
+    border-radius: 8px;
+    min-height: 470px;
+}
+
+#tern_members .WP-ml-members-list {
+    text-align: center;
+}
+
+.WP-ml-member-markup, .WP-ml-field-img {
+    display: inline-block;
+    vertical-align: top;
+}
+.WP-ml-field-img {
+    margin: 10px auto !important;
+    display: block;
+}
+.WP-ml-field-img a{
+    text-align: center;
+    margin: 0 auto !important;
+    width: 59% !important;
+    display: block;
+}
+
+#tern_members .WP-ml-field-img > a > img {
+    width: 100px !important;
+    height: 100px !important;
+    text-align: center;
+    margin: 0 auto !important;
+    display: block;
+    border-radius:50%;
+}
+
+.WP-ml-member-markup {
+   margin-left: 5px;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.WP-ml-member-markup .WP-ml-field {
+    display: block;
+}
+
+.WP-ml-member-markup .WP-ml-field label {
+        display: block;
+    width: 98%;
+    vertical-align: top;
+    text-align: left!important;
+    text-transform: uppercase;
+    letter-spacing: 0px !important
+}
+
+.WP-ml-member-markup .WP-ml-label span {
+    color: #862783 !important;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.WP-ml-member-markup .WP-ml-field .WP-ml-field-value {
+   width: 90%;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #444;
+}
+.WP-ml-field-value.name-tweak {
+    display: inline-block !important;
+    width: auto !important;
+}
+.WP-ml-field-value.name-tweak:last-child {
+    margin-left: 0 !important;
+}
+
+/*----------FOOTER STYLING----*/
+#footer-outer { 
+	background: url(/wp-content/uploads/2016/04/aurora-borealis-wallpaper-hd-wallpaper-3.jpg) no-repeat !important;
+	background-position: center bottom !important;
+	background-size:cover !important;
+	
+}
+#footer-outer .widget h4 {color:#66c9c3;font-weight:700;font-size:16px;font-family:Montserrat;}
+#footer-widgets .widget {text-align: left;}
+#footer-widgets .col ul li a {font-size: 14px;}
+#footer-outer #copyright {text-align:center !important;}
+
+#text-2 {margin-bottom:0px !important;}
+#follow-us {}
+#follow-us .follow-icon {width:22px; height:18px;margin:5px auto; padding:0 4px;display:inline-block;}
+#follow-us .follow-icon.follow-fb {background: url(/wp-content/uploads/2016/04/facebook_mobile.png) no-repeat; background-position:center; background-size:contain; }
+#follow-us .follow-icon.follow-twit {background: url(/wp-content/uploads/2016/04/twitter_mobile.png) no-repeat; background-position:center; background-size:contain; }
+#follow-us .follow-icon.follow-pin {background: url(/wp-content/uploads/2016/04/pinterest_mobile.png) no-repeat; background-position:center; background-size:contain; }
+#follow-us .follow-icon.follow-inst {background: url(/wp-content/uploads/2016/04/instagram_mobile.png) no-repeat; background-position:center; background-size:contain; }
+#follow-us .follow-icon.follow-yt {background: url(/wp-content/uploads/2016/04/youtube_mobile.png) no-repeat; background-position:center; background-size:contain; }
+#follow-us .follow-icon.follow-google {background: url(/wp-content/uploads/2016/04/google_mobile.png) no-repeat; background-position:center; background-size:contain; }
+
+#search-3 input {
+    background: transparent !important;
+    height: 34px;
+    padding: 0 5px!important;
+    border: 1px #66c3c9 solid;
+    font-family: Montserratlight;
+	color:#fff;
+}
+#footer-outer #copyright li a i, #footer-outer #copyright p {
+    color: #CACACA !important;
+    padding-bottom: 0px;
+    font-size: 14px;
+}
+@media all and (max-width:999px){
+#footer-widgets .widget {
+    text-align: center;
+}
+}
+@media only screen and (max-width: 1000px) and (min-width: 690px){
+#footer-widgets .container .col {
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+}

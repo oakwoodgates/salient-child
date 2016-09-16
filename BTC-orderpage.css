@@ -1,0 +1,434 @@
+/*------------------ORDER PAGE-------------*/
+
+.page-template-template-order #header-outer, .page-template-template-order #header-space, .page-template-template-salespage header, .page-template-template-optimizepress #header-outer, .page-template-template-optimizepress #header-space  {display:none;}
+
+/*-HEADER-*/
+#order-header.custom-header h1 {
+    display: inline-block;
+    width: auto;
+    max-width: 450px;
+    vertical-align: middle;
+    margin: 0 auto;
+    line-height: 150%;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#order-header.custom-header img {
+    display: block;
+    max-width: 310px !important;
+    vertical-align: middle;
+    margin: 0;
+    width: 90%;
+}
+
+#order-header.custom-header .custom-header-wrapper {
+    width: 100% !important;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+#order-header.custom-header {height: 250px;min-height: 250px;padding: 60px 0; background: url(/wp-content/uploads/BT-MajorMinorArcana-Header.png) no-repeat;
+    background-position: center left;
+    background-size: cover !important;}
+/*-END OF CUSTOM ORDER HEAER-*/
+
+
+/*COMMON ELEMENTS*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
+
+h1,h2 {font-family:'Montserrat';font-weight:400;}
+h1 {font-size:30px; letter-spacing:0.15em;line-height: 38px;}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+h3 , h6 {font-family: Roboto Slab; font-weight:300;}
+h3 {font-size:35px;margin-bottom:40px !important;line-height:48px;}
+
+h4,h5,h7,h8,h9 p, li, a, div, input, section {font-family:'montserratlight';font-weight:400;}
+
+h4 {font-size:22px;line-height:32px;font-weight:400; letter-spacing: 0.1em;}
+h5{font-size:20px;}
+h6 {font-size:18px;}
+h2.small {font-size:18px;line-height:28px;margin-bottom: 15px;}
+
+strong {font-family:'Montserrat';font-weight:700;}
+p{font-size:15px;}
+a {transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
+
+.green {color:#66c3c9 !important;}
+.darkgreen {color:#287c7e !important;}
+.white {color:#fff !important;}
+.purple {color:#582564 !important;}
+.lightpurple{color:#862783 !important;}
+.gold {color:#b79b62 !important;}
+
+.ultralight {font-weight:100;}
+.light, .light-weight {    
+    font-weight: 400 !important;
+    font-family: Montserratlight !important;
+}
+.normal-weight {font-weight:400;}
+
+.upper {text-transform:uppercase;}
+.lower {text-transform: none;}
+
+.no-marg-btm {margin-bottom:0px !important;}
+
+.green-brd-btm:after {    
+    margin: 0 auto 40px;
+    border-bottom: 2px #66c3c9 solid;
+    padding-bottom: 20px;
+    content: '';
+    display: block;
+    width: 80%;
+}
+.purple-brd-btm:after {    
+    margin: 0 0 40px;
+    border-bottom: 2px #582564 solid;
+    padding-bottom: 20px;
+    content: '';
+    display: block;
+    width: 80%;
+}
+
+.brd-btm-left.green-brd-btm:after {
+    margin-left: 0 !important;
+}
+
+.green-button {background:#66c3c9; color:#fff; font-weight:400; padding:5px 25px;border: 1px solid #66c3c9;display:block;text-align:center; max-width:240px;margin-left: auto;margin-right: auto;}
+
+.green-button:hover {background: transparent; color:#66c3c9;}
+
+.purple-button {background:#582564; color:#fff; font-weight:400; padding:8px 18px;border: 1px solid #582564;display:block;text-align:center; max-width:240px;margin-left: 0;margin-right: auto;}
+
+.purple-button:hover {background: transparent; color:#582564;}
+
+.trans-white-button {background:transparent; color:#fff; font-weight:400; padding:8px 10px;border: 1px solid #fff;display:block;text-align:center; max-width:240px;margin-left: auto;margin-right: auto;margin-top: 40px;}
+
+.trans-white-button:hover {background: #fff; color:#66c3c9;}
+
+.button-left {margin-left:0;margin-right: auto;}
+.button-right {margin-right:0;margin-left: auto;}
+
+.green-brd-button {
+    background: transparent;
+    color: #66c3c9;
+    font-weight: 400;
+    padding: 13px 10px;
+    border: 1px solid #66c3c9;
+    display: block;
+    text-align: center;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.green-brd-button:hover {background: #fff; color:#66c3c9;}
+
+
+.bt-custom-header {
+    padding: 100px 0 60px;    
+}
+.button-long {max-width:330px !important;}
+
+
+/*----------------FORM STYLING-------*/
+
+#order-main .moonray-form input, #order-main .moonray-form select {
+    background: #f7f7f7 !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 15px 10px !important;
+    font-size:18px !important;
+    color: #A09F9F;
+}
+#order-main .moonray-form label {font-family: montserrat !important; color:#582564 !important;font-size:20px !important;margin-top:10px !important;}
+
+#order-main span > strong > span, #order-main strong > font > span {
+    color: #582564;
+    text-transform: uppercase;
+}
+
+#order-main .moonray-form-element-separator {
+    border-bottom: 2px solid #66c3c9 !important;
+    border-style: solid !important;
+    border-top:none;
+}
+
+#order-main .moonray-form .moonray-form-element-separator .moonray-form-element-separator-legend {
+    position: relative !important;
+    height: auto !important;
+}
+
+#order-main .moonray-form-element-separator {
+    position: relative !important;
+    height: auto !important;
+    border: none !important;
+}
+
+#order-main .moonray-form .moonray-form-element-separator .moonray-form-element-separator-legend span {
+    position: relative !important;
+    top: 0 !important;
+    font-family: Montserrat;
+    font-size: 24px;
+    padding-left: 0 !important;
+    color: #66c3c9;
+    margin-top: 40px;
+}
+#order-main .moonray-form .moonray-form-element-separator .moonray-form-element-separator-legend span:after{
+    content:'';
+    display:block;
+    width:80%;
+    border-bottom: 2px #66c3c9 solid;
+    padding-top:20px;
+    
+}
+#order-main .moonray-form-element-wrapper.moonray-form-element-wrapper-contracted.moonray-form-element-credit-card {
+    width: 80% !important;
+    float: none !important;
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle;
+}
+#order-main .moonray-form-element-wrapper.moonray-form-element-wrapper-contracted.moonray-form-element-paypal {
+    width: 20% !important;
+    float: none !important;
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+
+#order-main .moonray-form-element-cart {
+    padding: 0 !important;
+    margin-top: 40px;
+}
+
+#order-main .moonray-form-element-cart .ussr-grid-wrapper {
+    padding: 0 !important;
+    margin: 0!important;
+    max-width: 100% !important;
+    min-width:0;
+}
+#order-main p > span > span > span {
+    color: #582564 !important;
+    font-family: Montserrat !important;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+
+#order-main .moonray-form-element-html p {
+    text-align: left !important;
+    margin-top: 80px;
+    border-bottom: 2px solid #66c3c9;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    max-width: 480px;
+}
+#order-main div[class^="moonray-form-"] .ontraport_grid_offer .ussr-component-grid-header .ussr-component-grid-header-item {
+    background: #582564;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#order-main .ussr-component-gird-cell label {
+    font-size: 18px !important;
+    vertical-align: middle;
+}
+#order-main .ussr-component-gird-cell label input {
+    vertical-align: middle;
+}
+
+#order-main .opf-error__icon {
+    position: absolute;
+    top: 36px !important;
+    right: 18% !important;
+    left: auto !important;
+}
+
+#order-main table.ussr-component-grid td {
+    border: none;
+    background: #eee9ef;
+    font-weight: 600;
+    color: #582564;
+    font-size: 16px;
+}
+
+#order-main .grid-summary-subtotal .label {
+text-transform: uppercase !important;
+    color: #fff;
+    font-weight: 600;
+    background: rgba(88, 37, 100, 0.72);
+    width: 65% !important;
+}
+
+#order-main .grid-summary-subtotal td {
+    background: rgba(102, 195, 201, 0.72);
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#order-main .grid-summary, #order-main .grid-summary td {
+    border: none;
+}
+#order-main .grid-summary-grandtotal td {
+    background: #66c3c9;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#order-main .grid-summary-grandtotal td:first-child {
+    background: #582564;
+}
+
+#order-main .grid-summary-coupon-input td {
+    background: #eee9ef;
+    text-transform: uppercase;
+    color: #582564;
+    font-weight: 600;
+    padding: 10px !important;
+    vertical-align: middle !important;
+}
+
+#order-main .grid-summary-coupon-input .ussr-form-input {
+    position: relative !important;
+    top: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    border-bottom: 1px #ccc solid !important;
+}
+#order-main .grid-summary table {
+    border-spacing: 10px;
+    border-collapse: separate;
+    border: none !important;
+}
+#order-main .moonray-form-element-credit-card .moonray-form-element-wrapper {
+    display: inline-block !important;
+    width: 48% !important;
+    margin-right: 1%;
+    padding-bottom: 0;
+}
+#order-main input[name="submit-button"] {
+    background-color: #66c3c9 !important;
+    color: #fff;
+    font-weight:600;
+    font-family: Montserratlight;
+    font-size: 18px !important;
+    text-align: center !important;
+    padding: 15px 40px !important;
+    margin: 40px auto !important;
+    max-width: 250px;
+    border: 1px solid #66c3c9 !important;
+    border-radius: 0;
+}
+#order-main input[name="submit-button"]:hover {
+ background: transparent !important;
+ color:#66c3c9;
+}
+.page-template-template-order #copyright {
+    background: none !important;
+}
+.order-sidebar-wrap li {
+    border-bottom: none !important;
+    padding-left: 15px !important;
+    font-size: 18px;
+    font-family: Montserratlight;
+}
+
+#order-main {
+    padding: 80px 0 0 !important;
+}
+
+/*------------------SIDEBAR---------------------*/
+
+#order-main #sidebar h3 ,#order-main #sidebar h2 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    color: #862783;
+}
+.order-sidebar-wrap li:before {
+  content: "\f105"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -15px; /* same as padding-left set on li */
+  width: 18px; /* same as padding-left set on li */
+  color: #66c3c9;
+  font-weight: 600;
+}
+
+.order-sidebar-wrap h3 {
+    color: #582564;
+}
+#order-main #sidebar .feature-box-content {
+    background: #efefef;
+    text-align: center;
+    color: #582564;
+    padding: 40px !important;
+}
+
+#order-main #sidebar .feature-box-content h2 {
+    color: #582564;
+}
+.order-sb-test {
+    padding: 40px 40px 10px;
+    background-color: rgba(88, 37, 100, 0.78);
+    color: #fff;
+    /* background: url(/admin/wp-content/uploads/BT-WorkWithMe-Banner-03-1.jpg) no-repeat; */
+    background-position: center;
+    background-size: cover;
+}
+
+.order-sb-test h4 {
+    text-align: center;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+.order-test-photo {
+    max-width: 200px;
+    margin: 0 auto 30px !important;
+    display: block;
+    border-radius: 50%;
+    width: auto;
+    max-height: 175px;
+}
+#order-sb-testimonial-2 {
+    background-color: rgb(87, 166, 171);
+}
+.order-sb-test h4:before {content: '-';font-weight: 600;font-size: 20px;font-family: Montserrat;}
+.order-sb-test h4:after {content: '-';font-weight: 600;font-size: 20px;font-family: Montserrat;}
+
+#order-sb-thmb img {max-width:300px; width:100%;margin: 0 auto;}
+@media all and (max-width:480px){
+    #order-main .grid-summary.ussr-border-solid-all.float-right.zindex-0 {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+    max-width: 100%;
+    position: relative;
+}
+    #order-main .moonray-form-element-wrapper.moonray-form-element-wrapper-contracted.moonray-form-element-paypal {
+    width: 80% !important;
+    text-align: center;
+    margin: 10px auto !important;
+}
+#order-main .moonray-form-element-wrapper.moonray-form-element-wrapper-contracted.moonray-form-element-credit-card .moonray-form-input-type-text {
+    width: 100% !important;
+}
+}

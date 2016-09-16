@@ -1,0 +1,309 @@
+/**------------dashboard----------------**/
+.side-area{
+  	overflow: hidden;
+      z-index: 2;
+}
+.availability-content .ui-datepicker{
+		width: 100% !important;
+}
+.side-area li a{
+  	white-space: nowrap;
+}
+.users-lists .user-item .name{
+  	white-space: normal;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 1024px) {
+  	.availability-content .section.left,
+  	.availability-content .section{
+    		width: 100%;
+    }
+  	.page-availability .page-content{
+    		background: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  	.s3mm_player{
+      	width: 100% !important;
+  	}
+  	.site-container{
+    	max-width: 100%;
+    }
+  	.dashboard-content .section{
+    		width: 100%;
+    		float: none;
+    		margin-right: 0;
+        margin-bottom: 49px;
+    }
+  	.section-1 .section-inner{
+    		 max-width: 100%;
+    		
+    }
+  	.header-area .banner img{
+    		width: 100%;
+    }
+  	.page-content img{
+    		width: 100%
+    }
+  	.page-content .right-reading img{
+    		width: auto
+    }
+  	.bottom-section{
+    		min-width: 0;
+    		margin-left:0px;
+    }
+  	.page-content{
+    		padding: 20px 20px;
+    }
+  
+  	.profile .user-info{
+    		width: 100%;
+    }
+  	.profile .user-info.right{
+    		width: 100%;
+    		margin-top: 32px;
+    }
+  	.profile .edit{
+    		top: 3px;
+    		right: 20px;
+    }
+  	.page-heading{
+    		padding: 20px 0px;
+    }
+  	.vacation{
+    		  max-width: 100px;
+        	padding-top: 29px;
+    			text-align: center;
+    }
+  	.vacation.vac-opt{
+    		top: 14px;
+        right: 20px;
+        padding-top: 25px;
+    }
+  	.right-reading{
+    		padding: 20px 33px;
+    		width: 75.5%;
+    }
+  	.reading-item{
+    			
+    			text-align: center;
+    }
+  	.left-reading{
+    			width: 24.5%;
+    }
+  	.reading-item img{
+    			display: block;
+    			margin: 0 auto;
+    }
+  	.closed-reading .reading-view{
+    			width: 71%;
+    }
+  	.list-heading .item{
+    	    font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+  		.side-area{
+    		max-width: 50px;
+    	}
+  		.side-area .logo{
+    		display:none;
+			}
+  	.site-inner{
+      	margin-left: 47px;
+  		}
+}
+
+@media screen and (max-width: 425px) {
+  		.side-area{
+    		max-width: 50px;
+    	}
+  		.side-area .logo{
+    		display:none;
+			}
+  		.site-inner{
+    		margin-left: 50px; ;
+    	}
+  		.profile .edit{
+    		position: relative;
+    	}
+  		.back-to{
+    		font-size: 0px;
+    	}
+  		.user-row:not(.bio) > p:first-of-type,
+  		.edit-content textarea{
+    			width: 85%;
+    	}
+  		.reading-item{
+    			padding: 10px 10px;
+    			
+    	}
+  		.left-reading{
+    			width: 26.5%;
+    	}
+  		.right-reading{
+    		    width: 72.5%;
+    	}
+  		.closed-reading .reading-view{
+    			width: 64%;
+    	}
+  		.reading-view{
+    			padding: 0 20px;
+    	}
+  
+  		.users-lists,
+  		.users-lists li{ display: block; }
+  
+  
+  .users-lists{ 
+		display: block; 
+	}
+	
+	
+  /* Hide table headers (but not display: none;, for accessibility) */
+	.list-heading
+       { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.user-item { border: 1px solid #ccc; }
+	
+	.user-item span { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50% !important; 
+    width: 41%;
+        font-size: 11px;
+        box-sizing: content-box !important;
+    float: none !important;
+    text-align: center !important;
+	}
+  .user-item img{
+    	float: none;
+    	display: none;
+    }
+  .user-item .name{
+    	float: none;
+       word-break: break-word;
+    white-space: normal; 
+    text-align: center;
+    }
+  
+  .users-lists .user-item .name{
+    	padding-left: 0px;
+    text-align: center;
+  }
+	
+	.user-item span:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	.user-item span:nth-of-type(1):before { content: "GLOBAL POSITION"; }
+	.user-item span:nth-of-type(2):before { content: "Name"; }
+	.user-item span:nth-of-type(3):before { content: "AVERAGE RATING"; }
+	.user-item span:nth-of-type(4):before { content: "COMPLETED REQUESTS"; }
+	.user-item span:nth-of-type(5):before { content: "UNANSWERED REQUESTS"; }
+	.user-item span:nth-of-type(6):before { content: "SUSPEND USER"; }
+	.user-item span:nth-of-type(7):before { content: "CANCEL MEMBERSHIP"; }
+        
+        .reading-lists .user-item span:nth-of-type(1):before { content: "READER"; }
+	.reading-lists .user-item span:nth-of-type(2):before { content: "USER"; }
+	.reading-lists .user-item span:nth-of-type(3):before { content: "READING STATUS"; }
+	.reading-lists .user-item span:nth-of-type(4):before { content: "DUE DATE"; }
+	.reading-lists .user-item span:nth-of-type(5):before { content: "RE-ASSIGN"; }
+	.reading-lists .user-item span:nth-of-type(6):before { content: "DELETE"; }
+	
+	
+	.profile-content .btn,
+	.edit-content .btn{
+		display: block;
+    	text-align: center;
+    	position: inherit;
+		    
+
+	}
+  .edit-content .btn{
+			width: 100%;
+  }
+	.reading-nav{	
+		padding:0;
+	}
+	.reading-nav li{
+		width: 100%;
+    	text-align: center;
+    	padding: 0;
+	}
+	
+	.vacation.vac-opt{
+		display: block;
+    	margin: 0 auto;
+    	position: inherit;
+    	padding-top: 0;
+    	padding-bottom: 15px;
+	}
+	.mode{
+    	position: inherit;
+        margin-top: 15px;
+  }
+	.reading-lists .ul-cr{
+		    width: 41%;	
+	}
+  
+}
+
+
+@media screen and (max-width: 375px) {
+  	.user-request > span{
+    		width: 100%;    
+    		margin-bottom: 25px;
+    }
+  	.user-request .count{
+    		    margin-bottom: 5px;
+    }
+  	.dashboard-content .section-3{
+    		padding-left: 0;
+    }
+  	.user-row:not(.bio) > p{
+    		    width: 100%;
+    }
+  	.user-row:not(.bio) > p:first-of-type,
+  		.edit-content textarea{
+    			width: 80%;
+    	}
+  
+  	.closed-reading .reading-view{
+    			width: 63%;
+    }
+  	.reading-view{
+    			padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  	.page-content{
+    		    padding: 20px 0px;
+		}
+  	.closed-reading .reading-view{
+    			width: 60%;
+    }
+  	.reading-view{
+    			padding: 0 6px;
+    }
+}

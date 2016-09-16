@@ -1,0 +1,308 @@
+/*
+Theme Name: Sales Page for Biddy Tarot Salient Child Theme
+Theme URI: http: //membership.biddytarot.com/
+Description: This is a custom child theme for Salient
+Author: GiF Design Studios
+Author URI: http: //www.gifdesignstudios.com/
+Template: salient
+Version: 0.1
+*/
+header#top, #search-outer, #header-outer, #mobile-menu, #footer-widgets, #header-space {
+    display: none;
+}
+#sales-page, .sales-page-container.container {
+    background: #fff;
+}
+#sales-page li, #sales-page p{font-family:Montserratlight; font-size:16px;}
+#sales-page strong {font-family:inherit;}
+#sales-page h2 {font-size: 24px; font-weight:400;line-height:130%;}
+#sales-page h3 {
+    font-size: 34px !important;
+    text-transform: none !important;
+    font-family: Roboto Slab;
+    font-weight: 400 !important;
+    line-height: 130% !important;
+   padding-bottom:30px;
+}
+#sales-page h3:after {
+       content: '';
+    width: 60%;
+    margin-left: 0;
+    border-bottom: 2px solid #66c3c9;
+    display: block;
+    padding-top: 10px;
+}
+#sales-page h3[style="text-align: center;"]:after {
+       content: '';
+    width: 40%;
+    margin: 0 auto;
+}
+
+#sales-page h4 {font-size: 18px; font-weight:400;}
+
+a.green-button {
+    background: #66c3c9;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #66c3c9;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 25px;
+    display: block;
+    width: 155px;
+}
+a.green-button.button-long {width:200px;}
+.sp-header-logo {max-width:250px;margin: 40px auto;}
+
+.sp-tarot-image {max-width:250px;margin: 20px auto 40px 0;}
+
+/*---HELLO SECTION -----*/
+
+#sales-page .hello-text h1{}
+#sales-page .hello-text h6 {
+    color:#862783; 
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#sales-page .hello-text p{    margin-top: 27px;}
+#sales-page .hello-text li{font-family: Montserratlight; }
+
+/* GREEN RECTANGLES*/
+
+#sales-page .sp-rectangle-wrap {
+    border: 2px #66c3c9 solid;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 20px 10px;
+   min-height:360px;
+}
+
+#sales-page .sp-rectangle-wrap p:first-child {
+    height: 100px;
+}
+
+#sales-page .sp-rectangle-wrap h4 {
+    color: #862783;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    border-bottom: 2px #862783 solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/*---Confetti Section--*/
+
+@media only screen and (max-width: 1000px) and (min-width: 1px) {
+#section-confetti .row-bg.using-image { background-position:center left!important;}
+
+}
+
+/*---Brigit Section--*/
+
+@media only screen and (max-width: 1000px) and (min-width: 1px) {
+#brigit-section .row-bg.using-image { background-position:center right !important;}
+
+}
+
+/*---BRIGIT DIAMOND---*/
+#brigit-diamond .col.span_12 {margin-top:-2px;}
+
+
+/*---JOIN COMMUNITY----*/
+
+#buy-boxes {text-align:center;}
+#sales-page .buy-box-wrap h2 {
+    color: #000;
+    font-size: 20px;
+    background: #66c3c9;
+    padding: 20px 5px;
+    border-radius: 11px 11px 0 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+#sales-page .wpb_column.buy-box-wrap {
+    border: 2px solid;
+    border-radius: 16px;
+    border-color: #66c3c9;
+    max-width: 320px;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+
+
+#sales-page .buy-box-wrap h4 {
+    margin-top: 60px;
+    font-size: 32px;
+    color: #66c3c9;
+}
+
+#sales-page .buy-box-wrap a {
+    color: #fff;
+    background: #66c3c9;
+    padding: 10px 20px;
+    margin: 40px auto 0px !important;
+    display: block;
+    width: 160px;
+    text-transform: uppercase;
+    border: 2px solid #66c3c9;
+}
+
+
+#sales-page .buy-box-wrap h5 {
+    margin-bottom: 15px !important;
+    color: #66c3c9;
+    border-top: 1px #66c3c9 solid;
+    padding-top: 20px;
+    margin: 15px 40px;
+}
+
+#sales-page .buy-box-wrap.buy-box-purple h2 {  
+    background: #582764;
+}
+
+#sales-page .buy-box-wrap.buy-box-purple {   
+    border-color: #582764;
+}
+
+
+#sales-page .buy-box-wrap.buy-box-purple h4 {  
+    color: #582764;
+}
+
+#sales-page .buy-box-wrap.buy-box-purple a {   
+    background: #582764;   
+    border: 2px solid #582764;
+}
+
+#sales-page .buy-box-wrap.buy-box-purple h5 {    
+    color: #582764;    
+}
+
+
+a.green-button:hover, #sales-page .buy-box-wrap a:hover {
+    color: #66c3c9;
+    background: #fff;
+}
+#sales-page .buy-box-wrap.buy-box-purple a:hover {color:#582564;}
+/*TIMER COUNTDOWN*/
+.sp-top-logos h1 {
+    text-transform: none;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+.upper {text-transform:uppercase;}
+
+span.element_conteiner span{
+    background: #fff !important;
+    padding: 10px !important;
+    width: 60px;
+    text-align: center;
+}
+span.element_conteiner {
+    border-radius: 50% !important;
+    background: #fff !important;
+    border: 2px #582764 solid;
+    padding: 20px !important;
+    width: 116px;
+    text-align: center;
+}
+#sales-page .sp-countdown-title h3 {
+    padding-bottom: 5px;
+    font-family: Montserrat;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+}
+#sales-page .sp-countdown-title h3:after {display: none;} 
+
+/*EXCLUSIVE ACCESS*/
+
+
+.exclusive-item-wrap {padding: 0px 40px;margin: 40px auto;}
+
+
+/*JOIN THE COMMUNITY*/
+
+
+
+.SP-join-community {
+    margin:40px auto;
+    text-align: center;
+}
+#sales-page .SP-join-community h2 {
+    border: 4px solid #66c3c9;
+    padding: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 130%;
+}
+.SP-join-community a{ position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin: 0;
+    margin-left: -78px;}
+
+/*FAQS*/
+#sales-page .toggle h3 a, #sales-page .toggle > div {background:none !important; box-shadow:none !important; color:#fff; }
+
+
+/*--Toggles-*/
+
+#sales-page .toggle h3:after {
+    border: none;
+}
+
+.purple-banner h1 {font-family:Roboto Slab; font-weight:400;font-size:28px;color:#66c3c9;}
+
+.gold {color:#bb9e6b;}
+.purple-banner h1 {
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 24px;
+    color: #66c3c9;
+    padding: 0px !important;
+    line-height: 30px;
+}
+.purple-banner p {padding:3px 0 0;}
+.brigit-photo {max-width:300px;margin-left:auto;margin-right:auto;}
+#sales-page .sp-testimonial-text h4 {
+    font-family: Roboto Slab ;
+    font-size: 20px ;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 30px;
+    border-bottom: 2px #66c3c9 solid;
+    padding-bottom: 10px;
+}
+#sales-page .sp-testimonial-author {color:#bb9e6b;text-transform:uppercase;}
+
+#footer-buy-button a, #footer-buy-button h2 {
+    text-align: left;
+    margin: 20px auto 20px 0 !important;
+}
+#footer-buy-button .button-center, a.green-button.button-long.button-center  {
+    margin: 40px auto 20px !important;
+}
+
+/*---Media Queries-------*/
+    
+@media all and (max-width:1000px) {
+.sp-rectangle-wrap {min-height:120px;}    
+
+}
+@media all and (min-width:580px) and (max-width:999px){
+.first-section {background:url(http://community.biddytarot.com/wp-content/uploads/topbg_tablet.png) no-repeat;
+    background-size:cover;background-position:center center;}
+    .sp-top-logos {background:rgba(255,255,255,0.4) !important;}
+    
+}
+@media all and (max-width:580px){
+.first-section {background:url(http://community.biddytarot.com/wp-content/uploads/sp-header-mobile.jpg) no-repeat;
+    background-size:77%;background-position:top center;}
+    
+    
+}
